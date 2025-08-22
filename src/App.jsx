@@ -162,12 +162,12 @@ const App = () => {
               unit=" Years"
               status={getBenchmarkStatus(paybackPeriod, benchmarks.paybackPeriod, 'paybackPeriod')}
             />
-            <ResultDisplay
+            {/* <ResultDisplay
               label="ROI"
               value={roi}
               unit="%"
               status={getBenchmarkStatus(roi, benchmarks.roi, 'roi')}
-            />
+            /> */}
             <ResultDisplay
               label="Rent Factor"
               value={rentFactor}
@@ -175,15 +175,7 @@ const App = () => {
               status={getBenchmarkStatus(rentFactor, benchmarks.rentFactor, 'rentFactor')}
             />
 
-            <div className="mt-6 bg-blue-50 border-l-4 border-blue-500 text-blue-800 p-4 rounded-lg shadow-md">
-              <h3 className="font-bold text-lg mb-2">Important Note on IRR:</h3>
-              <p className="text-sm">
-                While **Internal Rate of Return (IRR)** is a crucial metric, it requires a series of cash flows over time for accurate calculation, which is beyond the scope of this quick assessment. This calculator focuses on immediate, impactful unit economics.
-              </p>
-              <p className="text-sm mt-2">
-                For a comprehensive **IRR analysis** and a deeper dive into your overall unit economics, consider our specialized services.
-              </p>
-            </div>
+
           </div>
         </div>
 
