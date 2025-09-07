@@ -269,12 +269,13 @@ const App = () => {
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
             This calculator is just the start. If you want to analyze your entire pipeline, de-risk your growth, and consistently pick high-performing locations, let's talk.
           </p>
-          <button
-            onClick={() => alert('Ideally, this would open a calendar or contact form.')}
-            className="bg-[#ffc700] hover:bg-[#e6b800] text-black font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50"
-          >
-            Book Your Free Unit Economics Deep Dive
-          </button>
+          <a href="https://app.usemotion.com/meet/kyle-inserra/vsr1l7l" target="_blank">
+            <button
+              className="bg-[#ffc700] hover:bg-[#e6b800] text-black font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50"
+            >
+              Book Your Free Unit Economics Deep Dive
+            </button>
+          </a>
         </div>
       </div>
     </div>
